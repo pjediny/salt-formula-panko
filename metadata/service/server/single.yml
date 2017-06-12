@@ -1,0 +1,10 @@
+applications:
+- panko
+classes:
+- service.panko.support
+parameters:
+  panko:
+    server:
+      enabled: true
+      bind:
+        address: 0.0.0.0
